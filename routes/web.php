@@ -13,8 +13,14 @@
 
 Auth::routes();
 
+Route::get('/create', 'PostsController@create');
+
+Route::post('/create', 'PostsController@store');
+
 Route::get('/home', 'PostsController@index');
 
 Route::get('/', 'PostsController@index');
 
 Route::get('/{post}', 'PostsController@show');
+
+

@@ -21,7 +21,7 @@
         <nav class="nav blog-nav">
           <a class="nav-link" href="/">Home</a>
           @auth
-          <a class="nav-link" href="/">Create post</a>
+          <a class="nav-link" href="/create">Create post</a>
           @endauth
                         @guest
                             <li class="nav-item">
